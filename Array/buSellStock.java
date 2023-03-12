@@ -2,7 +2,6 @@ package Array;
 
 public class buSellStock {
     public static int buySellStocks(int prices[]) {
-        // 
         int buyPrice = Integer.MAX_VALUE;
         int maxProfit = 0;
         for (int i = 0; i < prices.length; i++) {
